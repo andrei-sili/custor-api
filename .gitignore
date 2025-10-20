@@ -1,0 +1,106 @@
+# ===========================================
+# 🧱 Python / Django
+# ===========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Django / Celery specific
+*.log
+*.pot
+*.pyc
+*.mo
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+celerybeat-schedule
+celerybeat.pid
+
+# ===========================================
+# ⚙️ Environment & Secrets
+# ===========================================
+.env
+.env.*
+!env.example
+*.pem
+*.key
+*.crt
+secrets.json
+
+# ===========================================
+# 🐳 Docker
+# ===========================================
+docker-compose.override.yml
+docker-compose.local.yml
+.docker/
+**/__pycache__/
+*.pid
+
+# ===========================================
+# 🧰 IDEs & Editor Settings
+# ===========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+.project
+.pydevproject
+.settings/
+Thumbs.db
+.DS_Store
+
+# ===========================================
+# 🧪 Tests & Coverage
+# ===========================================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# ===========================================
+# 🗃️ Database Dumps / Backups
+# ===========================================
+dump.sql
+*.sqlite3
+backups/
+*.tar.gz
+*.zip
+
+# ===========================================
+# ☁️ MinIO / Media / Temporary Files
+# ===========================================
+storage/
+tmp/
+temp/
+uploads/
+__temp__/
+
+# ===========================================
+# 🔍 Misc
+# ===========================================
+*.bak
+*.old
+*.orig
+*.rej
